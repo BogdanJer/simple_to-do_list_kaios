@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #2d3136;
+}
+
+/*
+  Remove the following styles before
+  sending to the device or simulator
+*/
+
+html,
+body,
+#root {
+  height: 320px;
+  width: 240px;
+}
+
+html,
+body {
+  background-color: #1c2022;
+}
+
+div[class*="softkey"] {
+  top: 320px;
+  bottom: auto !important;
+  width: 240px;
+}
