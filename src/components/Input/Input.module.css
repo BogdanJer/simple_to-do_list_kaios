@@ -10,14 +10,14 @@
   font-family: inherit;
   width: 100%;
   border: 0;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #127197;
   outline: 0;
   font-size: 16px;
   color: transparent;
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
-  color: #ffffff;
+  color: #46c3e9;
 }
 
 .input label {
@@ -51,6 +51,6 @@
 
 .input input[nav-selected="true"] {
   padding-bottom: 6px;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #2eb2c4;
   text-shadow: 0 0 0 rgba(0, 0, 0, 1);
 }

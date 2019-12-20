@@ -17,10 +17,11 @@
 }
 
 .todos span[nav-selected="true"] {
-  background-image: linear-gradient(255deg, #28a745, #20c997);
-  color: #fff;
+  font-size: 1.1em;
+  color: #f00;
 }
 
 .todos .completed {
   text-decoration: line-through;
+  color: #00000099;
 }
